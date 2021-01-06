@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+	<meta charset="UTF-8"/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" type="text/css" href="../estilos/estilo.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<title> Productos | Mercadito Familiar</title>
+</head>
+
+<body>
+	<form action="" class="formulario-producto" id="formulario-producto">
+		<fieldset>
+			<legend class="-modificador">Forma para agregar Productos</legend>
+			<label for="nombre">nombre</label>
+			<input type="text" name="nombre">
+			<label for="cantidad">cantidad</label>
+			<input type="number" name="cantidad">
+			<button class="botón" name="botón" data-acción="agregar">agregar prod.</button>
+		</fieldset>
+		
+
+	</form>
+	<div id="lista-productos" class="lista-productos"></div>
+
+
+	<table>
+		<colgroup>
+		  <col class="column1">
+		  <col class="columns2plus3" span="2">
+		</colgroup>
+		<tr>
+		  <th>Lime</th>
+		  <th>Lemon</th>
+		  <th>Orange</th>
+		</tr>
+		<tr>
+		  <td>Green</td>
+		  <td>Yellow</td>
+		  <td>Orange</td>
+		</tr>
+	  </table>
+	<script type="module">
+		import "../guiones/baseDeDatos.js";
+	</script>
+</body>
+</html>
