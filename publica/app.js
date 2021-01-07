@@ -7,5 +7,5 @@
  *   Registering Service Worker
  */
 if('serviceWorker' in navigator) {
-	navigator.serviceWorker.register('./mozo.js');
+	navigator.serviceWorker.register('./internuncio.js');
 };
