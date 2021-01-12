@@ -1,3 +1,5 @@
+
+
 /**Evento de instalación */
 self.addEventListener('install',(e)=>{
     console.log('[Nuncio] Instalando Internuncio...');
