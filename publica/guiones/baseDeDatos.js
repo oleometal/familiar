@@ -3,9 +3,9 @@
  */
 const listaProductos = document.getElementById("lista-productos");
 
-/**-----------------------------------------------------------------
- * Base de Datos
- */
+/**---------------------------------------------------------------------
+ * 		Base de Datos
+ ----------------------------------------------------------------------*/
 const BD_NOMBRE = 'productos';
   const BD_VERSION = 2; // Use a long long for this value (don't use a float)
   const BD_NOMBRE_ALMACEN = 'bodega';
@@ -130,9 +130,9 @@ function borrar(key) {
 	}
 }
 }
-/**
+/**--------------------------------------------------------------------------------
  * captura de datos del formulario de productos
- */
+ ----------------------------------------------------------------------------------*/
 const formularioProductos = document.getElementById('formulario-producto');
 formularioProductos.addEventListener('submit',(evento) => {
 	evento.preventDefault()

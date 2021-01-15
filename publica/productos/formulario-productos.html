@@ -12,11 +12,17 @@
 <body>
 	<form action="" class="formulario-producto" id="formulario-producto">
 		<fieldset>
-			<legend class="-modificador">Forma para agregar Productos</legend>
+			<legend class="--modificador">Forma para agregar Productos</legend>
 			<label for="nombre">nombre</label>
-			<input type="text" name="nombre">
+			<input type="text" name="nombre"placeholder="Nombre de Producto">
 			<label for="cantidad">cantidad</label>
-			<input type="number" name="cantidad">
+			<input type="number" name="cantidad" placeholder="Cantidad"/>
+			<input type="file"name="imagen"id="imagen">
+			<figure class="vista-anticipada">
+				<img id="image"/>
+				<figcaption id="nombre-usuario">vista anticipada</figcaption>
+
+			</figure>
 			<button class="botón" name="botón" data-acción="agregar">agregar prod.</button>
 		</fieldset>
 		
